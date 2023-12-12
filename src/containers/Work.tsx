@@ -1,7 +1,7 @@
 const Work = () => {
   return (
     <div id="#work" className="min-h-screen">
-      <div className="w-[1200px] mx-auto">
+      <div className="xl:w-[1200px] md:w-full mx-auto">
         <div className="flex">
           <div className="flex-1 flex flex-col gap-y-8">
             <h1 className="text-[140px] font-semibold leading-[150px]">
