@@ -1,8 +1,9 @@
 import ExpertiseCard from "../components/ExpertiseCard/ExpertiseCard";
+import bgImg from "../assets/matrix.jpg";
 
 const Expertise = () => {
   return (
-    <div id="#expertise" className="min-h-screen">
+    <div id="#expertise" className="min-h-screen flex flex-col">
       <div className="flex justify-center mt-4 mb-24">
         <p
           className="text-[50px] font-bold tracking-[1px]"
@@ -31,6 +32,12 @@ const Expertise = () => {
           />
         </div>
       </div>
+      <div
+        className="h-full w-full flex-1"
+        style={{
+          background: `linear-gradient(0deg, rgba(26,25,29,1) 0%, rgba(26,25,29,0.8099614845938375) 10%, rgba(26,25,29,1) 100%), url(${bgImg})`,
+        }}
+      />
     </div>
   );
 };
